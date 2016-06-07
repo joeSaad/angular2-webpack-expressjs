@@ -5,13 +5,29 @@ As you create and change your express API, you can test your application on both
 
 ## Installation
 
-  - Clone the repository
+```bash
+# clone our repo
+git clone https://github.com/joeSaad/angular2-webpack-expressjs
 
-> \$ npm install 
-> \$ cd public 
-> \$ npm install
-> \$ npm start       // for the webpack to run 
-> \$ cd ..               //to be in the root of the project    
-> \$ npm start      // for the webpack express to run
+# change directory to our repo
+cd angular2-webpack-expressjs
+
+# install the repo with npm
+npm install
+
+# install the typescript typings with tsd
+tsd install
+
+# cd public
+npm install
+
+# cd .. 
+npm start
+
+# start the server
+cd public 
+npm start
+
+```
 
   - access http://localhost:3000
