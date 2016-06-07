@@ -1,7 +1,7 @@
 {
-  "name": "poc1_observableapi",
-  "version": "1.0.0",
-  "description": "A webpack starter for angular 2",
+  "name": "angular2-webpack-expressjs",
+  "version": "1.0.1",
+  "description": "A webpack starter for angular 2 along with expressjs",
   "scripts": {
     "start": "node ./bin/www"
   },
