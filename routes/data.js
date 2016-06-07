@@ -34,7 +34,7 @@ router.get('/', function(req, res, err) {
 
 
 
-    }, 20000);
+    }, 2000);
 
     //res.send('responding');
 });

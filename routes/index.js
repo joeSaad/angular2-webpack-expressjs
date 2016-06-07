@@ -8,7 +8,7 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-  res.sendfile('public/index.html',{root:'./public'});
+  res.sendFile('src/index.html',{root:'./'});
 });
 
 
