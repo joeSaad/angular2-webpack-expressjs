@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A minimal Webpack-based Angular 2 seed project",
   "scripts": {
-    "start": "webpack-dev-server --colors --display-error-details --content-base src"
+    "start": "webpack-dev-server --colors --display-error-details --watch --inline"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,5 @@
 var express = require('express');
+var path = require('path');
 var router = express.Router();
 
 /* GET users listing. */
@@ -12,10 +13,21 @@ router.get('/', function(req, res, err) {
     if (err) {
         console.log('err : ' + err);
     }
-    //res.sendFile('data/main.json');
+    //res.sendFile('http://localhost:3000/data/main.json');
 
 
-    setTimeout(() => {
+    setTimeout(()=> {
+        res.sendFile('main.json', {
+            root: path.join(__dirname, '../public/data')
+        });
+    }, 0)
+
+    
+
+    //console.log('__dirname : '+__dirname);
+
+
+    /*setTimeout(() => {
         res.json([{
             "id": 1,
             "gender": "Male",
@@ -34,7 +46,7 @@ router.get('/', function(req, res, err) {
 
 
 
-    }, 2000);
+    }, 2000);*/
 
     //res.send('responding');
 });

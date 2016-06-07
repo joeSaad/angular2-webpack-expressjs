@@ -19,5 +19,6 @@ module.exports = {
         secure: false
       }
     },
+    watch: true,
     noParse: [ /.+zone\.js\/dist\/.+/, /.+angular2\/bundles\/.+/ ]
 };

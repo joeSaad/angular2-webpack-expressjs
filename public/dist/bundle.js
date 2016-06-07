@@ -45500,7 +45500,7 @@
 	    App = __decorate([
 	        core_1.Component({
 	            selector: "app",
-	            template: "<div>Hello Joe</div>"
+	            template: "<div>Hello bolbol sssaa 49994444</div>"
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], App);

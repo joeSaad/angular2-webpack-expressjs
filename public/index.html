@@ -19,18 +19,21 @@
 
         <h2></h2>
 
+        <h3>hello hello</h3>
+
 		<script>
 			$.ajax({
 				"url": "/data"
 			}).done(function(data){
-				$('h2').text(data[0]["last_name"]);
+				$('h2').text(data[8]["last_name"]);
 			})
 		</script>
 
 
         <app></app>
 
-		<script src="dist/bundle.js"></script>
+		<script src="http://localhost:8080/dist/bundle.js"></script>
+        <script src="http://localhost:8080/webpack-dev-server.js"></script>
 
     </body>
 </html>
