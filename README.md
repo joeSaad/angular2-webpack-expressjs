@@ -12,21 +12,21 @@ git clone https://github.com/joeSaad/angular2-webpack-expressjs
 # change directory to our repo
 cd angular2-webpack-expressjs
 
-# install the repo with npm
+# install dependencies of package
 npm install
 
 # install the typescript typings with tsd
 tsd install
 
-# cd public
+# install dependencies for frontend piece
+cd public 
 npm install
-
-# cd .. 
-npm start
+npm start 
 
 # start the server
-cd public 
+cd .. 
 npm start
+
 
 ```
 
